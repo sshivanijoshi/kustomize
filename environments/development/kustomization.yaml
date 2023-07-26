@@ -1,4 +1,4 @@
 bases:
   - ../../application
 patches:
-  - replica_count.yaml
+  - replica_count.yaml  #So that Kustomize wil know to apply this patch which is patches replication to orignal template
